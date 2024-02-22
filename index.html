@@ -99,16 +99,17 @@
           <div class="price">Price</div>
           <div class="category">Category</div>
         </div>
-        <div id="selected-players-container"></div>
+        <div id="selected-players-container">
+            
+        </div>
         <hr />
         <h3 class="padding">Total Cost: <span id="total-cost">0</span> $</h3>
         <hr />
         <div class="coupon-code">
           <input id="coupon-code" type="text" placeholder="Coupon Code" />
-          <button
-            
+          <button onclick="updateGrandTotal('apply-btn')" 
             id="apply-btn"
-            class="apply-btn"
+            class="apply-btn" 
           >
             Apply
           </button>
@@ -119,6 +120,6 @@
     </div>
 
     <!-- add javascript file here  -->
-    <script src=""></script>
+    <script src="scripts/app.js"></script>
   </body>
 </html>
